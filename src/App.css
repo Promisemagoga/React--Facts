@@ -1,0 +1,68 @@
+
+
+.App li {
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 15px 10px -15px #111;
+  padding: 20px;
+  background-color: #21222A;
+  
+}
+
+nav img {
+  width: 80px;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  color: #61dafb;
+}
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content{
+  padding: 55px 27px;
+  background-image: url(/public/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  
+}
+
+.main-content h1{
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-content li{
+  line-height: 19px;
+    padding-block: 10px;
+}
+
+.list-content li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
+
+
+
+footer {
+  margin-top: auto;
+  background-color: #21222A;
+  color: #61dafb;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
